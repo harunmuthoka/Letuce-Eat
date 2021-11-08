@@ -1,0 +1,258 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    backface-visibility: visible;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: orange;
+  }
+  .nav{
+    width: 80%;
+    
+  }
+  .container{
+    width: 80%;
+    /* display:inline-flex;
+    justify-content: center; */
+   
+  }
+  .section-one{
+    background-color: black;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content:center;
+    
+  }
+  .premium{
+    margin-left: 30px;
+  }
+  .premium-text{
+   color:white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  }
+  .button-one{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+  }
+
+  .section-two{
+    background-color: lightgray;
+    width: 100%;
+    min-height: 60vh;
+   
+  }
+  .services{
+    text-align: center;
+   
+  
+  }
+  .services-header{
+    color: orange;
+    text-align: center;
+    /* padding-left: 30px; */
+ 
+  }
+
+  /* .circle { 
+    width: 70px;
+    height: 70px;
+    background:goldenrod; 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+ } */
+
+ .drink{
+   background-color: white;
+   height: 200px;
+   width: 200px;
+   border: 1px solid lightgray;
+   margin:12px;
+   text-align: center;
+ }
+ .keep{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border: 1px solid lightgray;
+  margin:12px;
+  text-align: center;
+ }
+ .eat{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border: 1px solid lightgray;
+  margin:12px;
+  text-align: center;
+ }
+
+ .cards{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+ }
+
+ .number{
+   background-color:orange;
+   width:20%;
+   border-radius: 20px;
+   color:white;
+   margin-left: 80px;
+   
+
+ }
+
+ .reviews{
+   color: white;
+   background-color: black;
+   text-align: center;
+   padding: 5px;
+ }
+
+ .section-three{
+  display: flex;
+  justify-content:space-between;
+
+ }
+ hr{
+   width: 8%;
+ }
+
+ .section-four{
+   background-color:lightgray;
+   min-height: 90vh;
+
+ }
+ .menu-heading{
+   color: orange;
+   text-align: center;
+ }
+ .menu-text{
+   padding: 10px;
+   text-align: center;
+ }
+
+ .section-five{
+   background-image: url("/img/image8.png");
+   /* height: 300px; */
+   min-height: 50vh;
+   width: 100%;
+   background-size: cover;
+   color: white;
+   text-align: center;
+
+ }
+
+.section-six{
+  background-color: black;
+  min-height: 08vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+.copyright{
+  font-size: 10px;
+}
+.ksh{
+  color: orange;
+  font-weight: bolder;
+}
+.order{
+  background-color: lightgray;
+}
+.section-A{
+  display: flex;
+  justify-content:center;
+
+}
+ .menu-one{
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.menu-one img{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.menue-two{
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}  
+.menue-two img{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+ .section-B{
+  display: flex;
+  justify-content:center;
+  
+ 
+
+}
+.menue-three{
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.menue-three img{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.menue-four{
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 40px;
+} 
+.menue-four img{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.menu-one-text{
+  padding: 15px;
+}
+.menu-two-text{
+  padding: 15px;
+}
+.menu-three-text{
+  padding: 15px;
+}
+.menu-four-text{
+  padding: 15px;
+}
